@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { IoIosArrowDropleftCircle } from "react-icons/io";
 import { useRouter } from 'next/router';
 import image from '../api/photos'
+import Image from 'next/image';
 
 export default function Informacoes() {
   const router = useRouter();
@@ -31,7 +32,7 @@ export default function Informacoes() {
       <Link href="/detalhes"><IoIosArrowDropleftCircle className={styles.back} /></Link>
       <div className={styles.imageGallery}>
         <div className={styles.mainImage}>
-          <img src={mainImage} alt="Main" />
+          <Image src={mainImage} alt="Main" width={366} height={414}/>
         </div>
         <div className={styles.thumbnails}>
         {image.map((imagem, index) => {
@@ -39,7 +40,7 @@ export default function Informacoes() {
             if (imagem.id === id) {
             return imagem.fotos.map((foto, fotoIndex) => (
                 <div key={fotoIndex} className={styles.thumbnail}>
-                <img src={foto} alt={`Thumbnail ${index}-${fotoIndex}`} onClick={() => setMainImage(foto)} />
+                <Image src={foto} alt={`Thumbnail ${index}-${fotoIndex}`} onClick={() => setMainImage(foto)} width={50} height={56} />
                 </div>
             ));
             } else {
@@ -50,8 +51,8 @@ export default function Informacoes() {
       </div>
       <section className={styles.details}>
         <h1>Ashton Caned Teak Accent Chair</h1>
-        <p>Details</p>
-        <a>Bring a sense of the outdoors inside with this reclaimed teak wood accent chair. Featuring a caned back and a sculptural silhouette that showcases its natural grain patterns, it's well-suited for sun rooms, reading nooks, and minimalist living spaces.</a>
+        <span>Details</span>
+        <a>Bring a sense of the outdoors inside with this reclaimed teak wood accent chair. Featuring a caned back and a sculptural silhouette that showcases its natural grain patterns, its well-suited for sun rooms, reading nooks, and minimalist living spaces.</a>
       </section>
     </div>
   );
