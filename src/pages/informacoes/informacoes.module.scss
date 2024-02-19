@@ -1,0 +1,41 @@
+.imageGallery {
+    position: relative;
+    margin: 0 2rem 2rem 2rem;
+  }
+  
+  .thumbnails {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 35%;
+    margin-right: 2%;
+  }
+  
+  .thumbnail img {
+    width: 50px; /* Ajuste conforme necessário */
+    height: auto;
+    cursor: pointer;
+    border: solid 2px #fff;
+    border-radius: 30%;
+  }
+  
+  .mainImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    
+  }
+
+.details{
+    padding: 0 2rem;
+}
+
+.back{
+    font-size: 40px;
+    color: #18181b63;
+    margin: 1rem;
+}
+  

@@ -1,0 +1,53 @@
+
+
+.container{
+    background-image: url('../../public/image/Onboarding.jpeg');
+    height: 100vh;
+    margin: 0; 
+    background-size: cover;
+}
+
+.content{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    h1{
+        color: #E2CC02;
+        font-size: 50px;
+    }
+    p{
+        font-size: 30px;
+        color: #ffffff;
+        text-align: center;
+        padding: 0 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    a.button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: linear-gradient(#E2CC02, #322D00);
+        border: solid;
+        color: #ffffff;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    
+    a.button:hover {
+        background: linear-gradient(#ffcc00, #666600); 
+    }
+    
+    a.button img {
+        width: 50px; 
+        height: 50px; 
+        margin: 0; 
+    }
+}
+
