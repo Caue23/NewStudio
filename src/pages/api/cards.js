@@ -30,28 +30,28 @@ const cardsData = [
     {
         id:"5",
         hair:"2",
-        image: "/image/GoddessBraids4.jpeg",
+        image: "/image/box/box19.jpeg",
         title: "Título do Card 1",
         link: "/informacoes"
       },
       {
         id:"6",  
         hair:"2",
-        image: "/image/GoddessBraids3.jpeg",
+        image: "/image/box/box13.jpeg",
         title: "Título do Card 2",
         link: "/informacoes"
       },
       {
         id:"7",
         hair:"2",
-        image: "/image/GoddessBraids2.jpeg",
+        image: "/image/box/box11.jpeg",
         title: "Título do Card 3",
         link: "/informacoes"
       },
       {
         id:"8",  
         hair:"2",
-        image: "/image/GoddessBraids1.jpeg",
+        image: "/image/box/box5.jpeg",
         title: "Título do Card 4",
         link: "/informacoes"
       }
