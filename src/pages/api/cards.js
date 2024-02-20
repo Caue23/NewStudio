@@ -2,21 +2,21 @@ const cardsData = [
     {
       id:"1",
       hair:"1",
-      image: "/image/GoddessBraids1.jpeg",
+      image: "/image/goddess/goddess13.jpeg",
       title: "Título do Card 1",
       link: "/informacoes"
     },
     {
       id:"2",  
       hair:"1",
-      image: "/image/GoddessBraids2.jpeg",
+      image: "/image/goddess/goddess3.jpeg",
       title: "Título do Card 2",
       link: "/informacoes"
     },
     {
       id:"3",
       hair:"1",
-      image: "/image/GoddessBraids3.jpeg",
+      image: "/image/goddess/goddess6.jpeg",
       title: "Título do Card 3",
       link: "/informacoes"
     },
@@ -54,7 +54,35 @@ const cardsData = [
         image: "/image/box/box5.jpeg",
         title: "Título do Card 4",
         link: "/informacoes"
-      }
+      },
+      {
+          id:"9",
+          hair:"4",
+          image: "/image/knotless/knotless5.jpeg",
+          title: "Título do Card 1",
+          link: "/informacoes"
+        },
+        {
+          id:"10",  
+          hair:"4",
+          image: "/image/knotless/knotless10.jpeg",
+          title: "Título do Card 2",
+          link: "/informacoes"
+        },
+        {
+          id:"11",
+          hair:"4",
+          image: "/image/knotless/knotless14.jpeg",
+          title: "Título do Card 3",
+          link: "/informacoes"
+        },
+        {
+          id:"12",  
+          hair:"4",
+          image: "/image/box/box5.jpeg",
+          title: "Título do Card 4",
+          link: "/informacoes"
+        }
   ];
 
   export default cardsData;

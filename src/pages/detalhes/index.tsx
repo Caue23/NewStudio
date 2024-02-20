@@ -27,7 +27,7 @@ export default function Detalhes() {
           {filteredCards.map((card, index) => (
             <div key={index} className="col-md-6">
               <div className={`${styles.card} card`}>
-                <Image src={card.image} className="card-img-top" alt={`Imagem do Card ${index + 1}`} width={193} height={218} />
+                <Image src={card.image} className="card-img-top" alt={`Imagem do Card ${index + 1}`} width={193} height={257} />
                 <div className={`${styles.cardBody} card-body`}>
                   <h5 className="card-title">{card.title}</h5>
                   <Link href={`/informacoes?id=${card.id}`} className="btn btn-primary">Ver Detalhes</Link>
